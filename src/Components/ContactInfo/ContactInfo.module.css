@@ -1,0 +1,36 @@
+.contactContainer{
+  align-self: flex-end;
+
+  margin-top: 5px;
+  margin-right: 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactContainer :nth-child(1){
+  width: 170px;
+}
+
+
+.logoContainer :nth-child(1){
+  width:70px;
+
+}
+
+.logoContainer :nth-child(1):hover{
+  transform: scale(1.2);
+
+}
+
+.logoContainer :nth-child(2){
+  width:70px;
+
+}
+
+.logoContainer :nth-child(2):hover{
+  transform: scale(1.2);
+}
+
+a{
+  text-decoration: none;
+}

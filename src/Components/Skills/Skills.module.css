@@ -1,0 +1,39 @@
+
+.skillsContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.sheetsContainer{
+  display: flex;
+  gap: 10px;
+}
+
+.skillsImg {
+  width:70px;
+  height: 90px;
+}
+
+.skillsImg:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.windowContainer{
+ position: relative;
+
+}
+
+.techWindowImg{
+  width: 400px;
+}
+
+.windowButton{
+  font-weight: bold;
+  border-radius: 10px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top:.4rem;
+  right: .8rem;
+}

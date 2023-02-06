@@ -1,0 +1,31 @@
+.portfolioContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.foldersContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 15px;
+  padding: 20px;
+}
+
+.portfolioTitle img{
+  width: 240px;
+}
+
+
+
+.foldersContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.foldersContainer img{
+  width:140px;
+}

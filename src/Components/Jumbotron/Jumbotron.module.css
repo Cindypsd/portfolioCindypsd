@@ -1,0 +1,24 @@
+.jumbotronContainer{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 650px;
+  gap: 20px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.jumbotronImg{
+  width: 450px;
+}
+.jumbotronContainer p{
+  width: 550px;
+  font-size: 20px;
+}
+
+.jumbotronContainer span{
+  font-weight: bold;
+} 
+
