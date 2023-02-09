@@ -23,7 +23,7 @@ export const portfolio = [
     gif: 'countries',
     skills: 'NODE JS, SQL, PostgreSql, REACT, REDUX, CSS, JS',
     code: 'https://github.com/Cindypsd/countriesApiCindyPsd',
-    deploy: 'https://countriesapifrontend-production.up.railway.app/home',
+    deploy: 'https://countriesapifrontend-production.up.railway.app/',
   }
 
 ] 
