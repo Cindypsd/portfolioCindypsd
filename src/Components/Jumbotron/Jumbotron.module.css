@@ -1,5 +1,4 @@
 .jumbotronContainer{
-  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,3 +21,21 @@
   font-weight: bold;
 } 
 
+@media(max-width:640px){
+  .jumbotronContainer{
+    width: 600px;
+  }
+
+  .jumbotronImg{
+    width: 300px;
+  }
+
+  .jumbotronContainer h1{
+    font-size: 22px;
+  }
+
+  .jumbotronContainer p{
+    width: 350px;
+    font-size: 14px;
+  }
+}

@@ -37,3 +37,24 @@
   top:.4rem;
   right: .8rem;
 }
+
+
+@media(max-width:640px){
+  .windowContainer{
+    width: 300px;
+    margin: 10px;
+  }
+
+ 
+
+  .techWindowImg{
+    width: 300px;
+  }
+
+  .windowButton{
+    top:.1rem;
+    right: .3rem;
+    width: 30px;
+    height: 25px;
+  }
+}

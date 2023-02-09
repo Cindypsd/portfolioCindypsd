@@ -19,7 +19,6 @@
 }
 
 
-
 .foldersContainer{
   display: flex;
   flex-direction: row;
@@ -28,4 +27,17 @@
 
 .foldersContainer img{
   width:140px;
+}
+
+@media(max-width:640px){
+  .portfolioTitle img{
+    margin-top: 20px;
+    width: 160px;
+  }
+
+  .foldersContainer img{
+    width:90px;
+  }
+  
+
 }

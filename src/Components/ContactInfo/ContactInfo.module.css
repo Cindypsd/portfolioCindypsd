@@ -34,3 +34,14 @@
 a{
   text-decoration: none;
 }
+
+
+@media(max-width:640px){
+  .contactContainer :nth-child(1){
+    width: 120px;
+  }
+  
+  .logoContainer :nth-child(1){
+    width:50px;}
+  
+}

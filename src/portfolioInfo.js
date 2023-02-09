@@ -22,7 +22,8 @@ export const portfolio = [
     name: 'Countries API',
     gif: 'countries',
     skills: 'NODE JS, SQL, PostgreSql, REACT, REDUX, CSS, JS',
-    code: 'https://github.com/Cindypsd/countriesApiCindyPsd'
+    code: 'https://github.com/Cindypsd/countriesApiCindyPsd',
+    deploy: 'https://countriesapifrontend-production.up.railway.app/home',
   }
 
 ] 

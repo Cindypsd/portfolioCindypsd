@@ -37,21 +37,20 @@ export const Window =  ({selectFolder}) => {
 
   return (
     <div className={style.Container}>
-      <h2>{projectInfo[0].name}</h2>
-      <p className={style.skillsp}>Skills: <span>{projectInfo[0].skills}</span></p>
+      <h2 className={style.projectName}>{projectInfo[0].name}</h2>
+      
 
       <div className={style.extraInfoContainer}>
         <p>Code → </p> <a target="_blank" href={projectInfo[0].code} rel="noreferrer"><img src={require('../../images/githubIcon.png')} alt="GitHub logo" /></a>
         <p>Deploy → </p> <a target="_blank" href={projectInfo[0].deploy} rel="noreferrer"><img src={require('../../images/webIco.png')} alt="GitHub logo" /></a>
       </div>
 
+      <p className={style.skillsp}>Skills: <span>{projectInfo[0].skills}</span></p>
+
+
       <div className={style.windowContainer}>
         <img className={style.widowGif} src={require(`../../gifs/${projectInfo[0].gif}.gif`)} alt="Window img" />
       </div>
-
-    
-
-     
 
     </div>
   )
